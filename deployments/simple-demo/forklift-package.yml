@@ -23,7 +23,6 @@ features:
         - tags: [caddy-docker-proxy]
           port: 3000
           protocol: http
-          nonblocking: true
     provides:
       services:
         - description: An nginx hello-world landing page for testing
@@ -43,7 +42,6 @@ features:
         - tags: [caddy-docker-proxy]
           port: 3000
           protocol: http
-          nonblocking: true
     provides:
       services:
         - description: An unformatted whoami endpoint for testing
