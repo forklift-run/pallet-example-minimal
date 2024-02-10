@@ -41,12 +41,16 @@ commands), then you can just run a single command instead of the two the command
 forklift plt switch github.com/ethanjli/pallet-example-minimal@main
 ```
 
-### Validation
-
 This pallet will bring up a web server at port 3000. If you open <http://localhost:3000> in your web
 browser after deploying the pallet, you should see an NGINX page which prints some basic information
 such as the current date. If you open <http://localhost:3000/whoami>, you should see another page
 with some additional information (e.g. your browser's user agent).
+
+### Forking
+
+To make your own copy of this repository for experimentation, fork this repository to a new
+repository, and then update the `path` fields of the `forklift-pallet.yml` and
+`forklift-repository.yml` files to match the path of your new repository.
 
 ## Licensing
 
