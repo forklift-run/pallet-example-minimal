@@ -36,9 +36,9 @@ forklift plt switch github.com/ethanjli/pallet-example-minimal@main
 ### Validation
 
 This pallet will bring up a web server at port 3000. If you open <http://localhost:3000> in your web
-browser after deploying the pallet, you should see a hello-world page. If you open
-<http://localhost:3000/whoami>, you should see another page with some information about your
-browser.
+browser after deploying the pallet, you should see an NGINX page which prints some basic information
+such as the current date. If you open <http://localhost:3000/whoami>, you should see another page
+with some additional information (e.g. your browser's user agent).
 
 ## Licensing
 
