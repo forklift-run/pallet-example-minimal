@@ -29,8 +29,7 @@ features:
           port: 3000
           protocol: http
           paths:
-            - /demo/hello-nginx
-            - /demo/hello-nginx/*
+            - /
   whoami:
     description: Provides a whoami endpoint
     compose-files: [compose-whoami.yml]
@@ -48,5 +47,5 @@ features:
           port: 3000
           protocol: http
           paths:
-            - /demo/whoami
-            - /demo/whoami/*
+            - /whoami
+            - /whoami/*
