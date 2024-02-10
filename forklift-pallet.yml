@@ -1,0 +1,6 @@
+forklift-version: v0.4.0
+
+pallet:
+  path: github.com/ethanjli/pallet-example-minimal
+  description: Example deployment of example hello-world packages for a minimal demo of Forklift
+  readme-file: README.md

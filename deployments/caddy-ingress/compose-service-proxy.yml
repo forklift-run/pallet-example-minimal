@@ -1,0 +1,14 @@
+services:
+  reverse-proxy:
+    ports:
+      - 3000:80
+    networks:
+      - proxied
+    environment:
+      - CADDY_INGRESS_NETWORKS=caddy-ingress
+    labels:
+      caddy.auto_https: disable_redirects
+
+networks:
+  proxied:
+    name: caddy-ingress

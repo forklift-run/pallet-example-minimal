@@ -1,0 +1,5 @@
+package: /deployments/simple-demo
+features:
+  - hello
+  - whoami
+disabled: true
