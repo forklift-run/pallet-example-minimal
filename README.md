@@ -4,7 +4,15 @@ A simple "hello-world" Forklift pallet illustrating a minimal pallet structure
 ## Introduction
 
 pallet-example-minimal is a [Forklift](https://github.com/PlanktoScope/forklift) pallet
-specifying an example set of Forklift packages and package deployments.
+specifying an example set of Forklift packages and package deployments for a "hello world"-style
+demonstration. This pallet is structured as a monorepo in which all packages to be deployed are also
+defined by the pallet (because it is also a Forklift repository). Due to its simplicity, this is the
+recommended approach for small projects where packages aren't intended to be reused externally. By
+contrast, the pallet at
+[github.com/PlanktoScope/pallet-standard](https://github.com/PlanktoScope/pallet-standard)
+imports all packages from a separate Forklift repository
+([github.com/PlanktoScope/device-pkgs](https://github.com/PlanktoScope/device-pkgs)), because
+packages for that project are intended to be reusable and recomposable as a set of building blocks.
 
 ## Usage
 
