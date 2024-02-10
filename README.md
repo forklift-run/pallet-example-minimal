@@ -13,7 +13,7 @@ specifying an example set of Forklift packages and package deployments.
 You can clone the latest commit of this Forklift pallet to a computer acting as a Docker host, by
 using the [`forklift`](https://github.com/PlanktoScope/forklift) tool:
 ```
-forklift plt clone github.com/ethanjli/pallet-example-minimal
+forklift plt clone github.com/ethanjli/pallet-example-minimal@main
 ```
 
 Then you can apply the cloned pallet on your computer using the following sequence of `forklift`
@@ -30,7 +30,7 @@ If your user is in the `docker` group (so that you don't need to use `sudo` when
 commands), then you can just run a single command instead of the two the commands listed above:
 
 ```
-forklift plt switch github.com/ethanjli/pallet-example-minimal
+forklift plt switch github.com/ethanjli/pallet-example-minimal@main
 ```
 
 ### Validation
