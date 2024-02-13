@@ -29,7 +29,8 @@ features:
           port: 3000
           protocol: http
           paths:
-            - /
+            - /hello
+            - /hello/*
   whoami:
     description: Provides a whoami endpoint
     compose-files: [compose-whoami.yml]

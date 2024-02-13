@@ -5,7 +5,8 @@ services:
       - caddy-ingress
     labels:
       caddy: :80
-      caddy.handle_path: /
+      caddy.redir: /hello /hello/
+      caddy.handle_path: /hello/*
       caddy.handle_path.reverse_proxy: "{{upstreams 80}}"
 
 networks:
