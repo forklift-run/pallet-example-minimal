@@ -48,8 +48,8 @@ with some additional information (e.g. your browser's user agent).
 
 ### Forking
 
-To make your own copy of this repository for experimentation, fork this repository to a new
-repository, and then update the `path` fields of the `forklift-pallet.yml` and
+To make your own copy of this repository for experimentation, you should fork this repository to a
+new repository. Then, update the `path` fields of the `forklift-pallet.yml` and
 `forklift-repository.yml` files to match the path of your new repository.
 
 ## Licensing
