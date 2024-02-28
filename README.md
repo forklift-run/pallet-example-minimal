@@ -16,10 +16,20 @@ packages for that project are intended to be reusable and recomposable as a set 
 
 ## Usage
 
+### Prerequisites
+
+You will need to have the Docker Engine installed on your computer. Installation instructions are
+available [here](https://docs.docker.com/engine/install/).
+
+Then, you will need to set up the [`forklift`](https://github.com/PlanktoScope/forklift) tool on
+your computer. Setup instructions are available
+[here](https://github.com/PlanktoScope/forklift?tab=readme-ov-file#downloadinstall-forklift). Note
+that currently `forklift` is only tested and built for Linux computers.
+
 ### Deployment
 
-You can clone the latest commit of this Forklift pallet to a computer acting as a Docker host, by
-using the [`forklift`](https://github.com/PlanktoScope/forklift) tool:
+You can clone the latest commit of this Forklift pallet to your computer acting, by
+using the `forklift` tool:
 ```
 forklift plt clone github.com/ethanjli/pallet-example-minimal@main
 ```
@@ -35,7 +45,7 @@ specified by this pallet and delete any Docker containers not specified by this 
 deployments.
 
 If your user is in the `docker` group (so that you don't need to use `sudo` when running `docker`
-commands), then you can just run a single command instead of the two the commands listed above:
+commands), then you can just run a single command instead of the two commands listed above:
 
 ```
 forklift plt switch github.com/ethanjli/pallet-example-minimal@main
