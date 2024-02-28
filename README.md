@@ -24,7 +24,7 @@ available [here](https://docs.docker.com/engine/install/).
 Then, you will need to set up the [`forklift`](https://github.com/PlanktoScope/forklift) tool on
 your computer. Setup instructions are available
 [here](https://github.com/PlanktoScope/forklift?tab=readme-ov-file#downloadinstall-forklift). Note
-that currently `forklift` is only tested and built for Linux computers.
+that currently `forklift` is only tested for Linux computers.
 
 ### Deployment
 
