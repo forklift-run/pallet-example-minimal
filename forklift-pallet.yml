@@ -1,6 +1,6 @@
 forklift-version: v0.5.2
 
 pallet:
-  path: github.com/ethanjli/pallet-example-minimal
+  path: github.com/forklift-run/pallet-example-minimal
   description: Example deployment of example hello-world packages for a minimal demo of Forklift
   readme-file: README.md

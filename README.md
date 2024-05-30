@@ -28,7 +28,7 @@ that currently `forklift` is only tested for Linux computers.
 
 ### Deployment
 
-You can clone the latest commit of this Forklift pallet to your computer acting, by
+You can clone the latest commit of this Forklift pallet to your computer, by
 using the `forklift` tool:
 ```
 forklift plt clone github.com/ethanjli/pallet-example-minimal@main
