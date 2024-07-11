@@ -51,9 +51,9 @@ commands), then you can just run a single command instead of the two commands li
 forklift plt switch github.com/ethanjli/pallet-example-minimal@main
 ```
 
-This pallet will bring up a web server at port 3000. If you open <http://localhost:3000/hello> in
+This pallet will bring up a web server at port 80. If you open <http://localhost/hello> in
 your web browser after deploying the pallet, you should see an NGINX page which prints some basic
-information such as the current date. If you open <http://localhost:3000/whoami>, you should see
+information such as the current date. If you open <http://localhost/whoami>, you should see
 another page with some additional information (e.g. your browser's user agent).
 
 ### Forking

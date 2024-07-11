@@ -1,4 +1,4 @@
-package: /deployments/simple-demo
+package: /packages/simple-demo
 features:
   - hello
   - whoami

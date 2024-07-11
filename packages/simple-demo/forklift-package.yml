@@ -21,12 +21,12 @@ features:
           name: caddy-ingress
       services:
         - tags: [caddy-docker-proxy]
-          port: 3000
+          port: 80
           protocol: http
     provides:
       services:
         - description: An nginx hello-world landing page for testing
-          port: 3000
+          port: 80
           protocol: http
           paths:
             - /hello
@@ -40,12 +40,12 @@ features:
           name: caddy-ingress
       services:
         - tags: [caddy-docker-proxy]
-          port: 3000
+          port: 80
           protocol: http
     provides:
       services:
         - description: An unformatted whoami endpoint for testing
-          port: 3000
+          port: 80
           protocol: http
           paths:
             - /whoami

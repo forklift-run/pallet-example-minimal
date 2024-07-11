@@ -1,4 +1,4 @@
-package: /deployments/caddy-ingress
+package: /packages/caddy-ingress
 features:
   - service-proxy
 disabled: false

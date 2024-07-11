@@ -25,10 +25,10 @@ features:
           name: caddy-ingress
       listeners:
         - description: Web server for all HTTP requests
-          port: 3000
+          port: 80
           protocol: tcp
       services:
         - description: Web server which reverse-proxies web services
           tags: [caddy-docker-proxy]
-          port: 3000
+          port: 80
           protocol: http
